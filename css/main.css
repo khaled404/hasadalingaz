@@ -375,7 +375,7 @@ html[dir="ltr"] .topbar .content .right a img {
             align-items: center; }
     @media (max-width: 375px) {
       .main-nav .logo img {
-        width: 60px; } }
+        width: 50px; } }
     .main-nav .logo h1 {
       font-family: "BahijBold75";
       color: #000;
@@ -392,10 +392,10 @@ html[dir="ltr"] .topbar .content .right a img {
         font-size: 14px; }
       @media (max-width: 375px) {
         .main-nav .logo h1 {
-          font-size: 14px;
+          font-size: 13px;
           margin-right: 5px; }
           .main-nav .logo h1 span {
-            font-size: 10px; } }
+            font-size: 7px; } }
   .main-nav .linkCon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -776,7 +776,7 @@ html[dir="ltr"] .search-popUp .input-container input {
     position: relative; }
     .header .swiper-slide img {
       width: 100%;
-      min-height: 200px; }
+      min-height: 300px; }
     .header .swiper-slide .content {
       color: #fff;
       position: absolute;
@@ -801,6 +801,9 @@ html[dir="ltr"] .search-popUp .input-container input {
         margin-bottom: 15px; }
         @media (max-width: 480px) {
           .header .swiper-slide .content .topTitle {
+            font-size: 17px; } }
+        @media (max-width: 320px) {
+          .header .swiper-slide .content .topTitle {
             font-size: 16px; } }
       .header .swiper-slide .content .title {
         font-size: 48px;
@@ -815,11 +818,11 @@ html[dir="ltr"] .search-popUp .input-container input {
             margin-bottom: 30px; } }
         @media (max-width: 480px) {
           .header .swiper-slide .content .title {
-            font-size: 20px;
-            margin-bottom: 16px; } }
+            font-size: 23px;
+            margin-bottom: 25px; } }
         @media (max-width: 375px) {
           .header .swiper-slide .content .title {
-            font-size: 17px; } }
+            font-size: 19px; } }
         .header .swiper-slide .content .title span {
           display: block; }
           @media (max-width: 768px) {
@@ -891,7 +894,7 @@ html[dir="ltr"] .search-popUp .input-container input {
     bottom: 25px; }
     @media (max-width: 480px) {
       .header .swiper-container-horizontal > .swiper-pagination-bullets {
-        bottom: 0px; } }
+        bottom: 5px; } }
   .header .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
